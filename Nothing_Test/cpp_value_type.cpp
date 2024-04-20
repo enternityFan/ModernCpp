@@ -17,11 +17,5 @@ int main()
     f([]
       { return 1; }());
     f(1 + 1);
-    
-
-
-
-
-
     return 0;
 }
