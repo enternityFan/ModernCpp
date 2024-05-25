@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -g3 -std=c++2a -O2 /home/csu/Lifan/RemoteCode/ModernCpp/MyTinySTL/myvector.cpp -o /home/csu/Lifan/RemoteCode/ModernCpp/MyTinySTL/output/myvector -lgtest -lpthread

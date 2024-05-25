@@ -2,6 +2,7 @@
 #include <complex>
 #include <string>
 #include <atomic>
+#include <memory>
 using namespace std;
 
 // 仍然是模板函数。
@@ -48,6 +49,7 @@ auto mymax4(const T1 &a, const T2 &b)
 
 int main()
 {
+    std::shared_ptr<int> p1(new int(10));
     int arr[] = {1, 2, 3, 4, 5};
     printColl(arr);
     string str = "Hello, world!";
